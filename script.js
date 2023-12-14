@@ -55,7 +55,7 @@ alert("This is an external test file!!!");
 // alert(typeof Map);
 // alert(typeof Array);
 // alert(typeof encodeURI);
-alert(typeof(Math));
+// alert(typeof(Math));
 
 
 let SysPrompt = prompt('Please Confirm Your Password:');
@@ -74,3 +74,7 @@ while (isYou){
     alert(isYou);
     break;
 }
+
+
+let EnterName = prompt('Enter your name:');
+alert(`Your name is ${EnterName}`);
