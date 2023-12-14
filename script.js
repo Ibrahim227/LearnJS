@@ -57,6 +57,17 @@ alert(typeof Array);
 alert(typeof encodeURI);
 alert(typeof(Math));
 
+
+let SysPrompt = prompt('Please Confirm Your Password:');
+while (SysPrompt == '1234'){
+    alert(`Password entered successfully`, {SysPrompt})
+    break;
+    while (SysPrompt != '1234'){
+        alert(`Password not entered Correctly`, {SysPrompt});
+        break;
+}
+
+
 // NameSurname = prompt(title, [default]);
 let isYou = confirm('Please are you a human?');
 while (isYou){
