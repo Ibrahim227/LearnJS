@@ -46,3 +46,4 @@ alert(100e3); // print the result of 100 exponent  3
 alert(0x1234567ABDEFn); // print the result of  hexadecimal number as Bigint
 alert("\xA9");
 
+alert(1 / 0);
