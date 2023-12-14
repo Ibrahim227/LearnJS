@@ -45,5 +45,21 @@ alert(100e3); // print the result of 100 exponent  3
 
 alert(0x1234567ABDEFn); // print the result of  hexadecimal number as Bigint
 alert("\xA9");
+let result = (500 * 500);
+alert(`the result is: ${result}`);
+alert(typeof 0);
+alert(typeof 'Mike');
+alert(typeof null);
+alert(typeof alert);
+alert(typeof undefined);
+alert(typeof Map);
+alert(typeof Array);
+alert(typeof encodeURI);
+alert(typeof(Math));
 
-alert(1 / 0);
+// NameSurname = prompt(title, [default]);
+let isYou = confirm('Please are you a human?');
+while (isYou){
+    alert(isYou);
+    break;
+}
