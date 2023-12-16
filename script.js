@@ -77,4 +77,4 @@ while (isYou){
 
 
 let EnterName = prompt('Enter your name:');
-alert(`Your name is ${EnterName}`);
+alert(`Your name is: ${EnterName}`);
