@@ -58,23 +58,40 @@ alert("This is an external test file!!!");
 // alert(typeof(Math));
 
 
-let SysPrompt = prompt('Please Confirm Your Password:');
-while (SysPrompt == '1234'){
-    alert(`Password entered successfully`, {SysPrompt})
-    break;
-}
-while (SysPrompt != '1234'){
-        alert(`Password not entered Correctly`, {SysPrompt});
-        break;
-    }
+// let SysPrompt = prompt('Please Confirm Your Password:');
+// while (SysPrompt == '1234'){
+//     alert(`Password entered successfully`, {SysPrompt})
+//     break;
+// }
+// while (SysPrompt != '1234'){
+//         alert(`Password not entered Correctly`, {SysPrompt});
+//         break;
+//     }
 
-// NameSurname = prompt(title, [default]);
-let isYou = confirm('Please are you a human?');
-while (isYou){
-    alert(isYou);
-    break;
-}
+// // NameSurname = prompt(title, [default]);
+// let isYou = confirm('Please are you a human?');
+// while (isYou){
+//     alert(isYou);
+//     break;
+// }
 
 
-let EnterName = prompt('Enter your name:');
-alert(`Your name is: ${EnterName}`);
+// let EnterName = prompt('Enter your name:');
+// alert(`Your name is: ${EnterName}`);
+
+
+// let value = true;
+// alert(typeof value);
+
+// value = String(value);
+// alert(typeof value);
+
+// let jug = "123";
+// alert(typeof jug);
+
+// jug = Number(jug);
+// alert(typeof jug);
+
+
+let strange = Number("A strange way to convert a string to a number!!! Won't work");
+alert(strange);
