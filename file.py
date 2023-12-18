@@ -18,8 +18,19 @@
 #     print('An exception flew by!')
 #     raise
 
-def f():
-    excs = [OSError('an OSError Occurred'), SystemError('A SystemError occurred')]
-    raise ExceptionGroup('there were problems', excs)
+# def f():
+#     excs = [OSError('an OSError Occurred'), SystemError('A SystemError occurred')]
+#     raise ExceptionGroup('there were problems', excs)
 
-f()
+# f()
+
+try:
+    driOp = open('mydata2.txt', 'r')
+except FileNotFoundError:
+    print('file not found!!')
+else:
+    print(f" the file contains {driOp.readlines()}")
+finally:
+    print("\nPrint a finally message")
+testFile = open('mydata4.txt', 'r')
+print(testFile.readlines())
