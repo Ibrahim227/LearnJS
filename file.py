@@ -30,7 +30,13 @@ except FileNotFoundError:
     print('file not found!!')
 else:
     print(f" the file contains {driOp.readlines()}")
+    driOp.close()
 finally:
     print("\nPrint a finally message")
-testFile = open('mydata4.txt', 'r')
-print(testFile.readlines())
+    
+try:
+    testFile = open('mydata4.txt', 'r')
+    print(testFile.readlines())
+    testFile.close()
+except:
+    print("the file doesn't exist")
