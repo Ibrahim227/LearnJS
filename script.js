@@ -93,14 +93,14 @@
 // alert(typeof jug);
 
 
-let strange = Number("A strange way to convert a string to a number!!! Won't work");
-alert(strange); // "A strange way to convert a string to a number return NaN 
+// let strange = Number("A strange way to convert a string to a number!!! Won't work");
+// alert(strange); // "A strange way to convert a string to a number return NaN 
 
-let value = true;
-alert(typeof value); // return value type: "boolean"
+// let value = true;
+// alert(typeof value); // return value type: "boolean"
 
-let newValue = String(value);
-alert(typeof newValue); // return value type: "String"
+// let newValue = String(value);
+// alert(typeof newValue); // return value type: "String"
 
 let x = 2;
 x = -x; // unary operation
