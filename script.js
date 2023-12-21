@@ -1,4 +1,4 @@
-alert("This is an external test file!!!");
+// alert("This is an external test file!!!");
 
 
 // let admin;
@@ -95,3 +95,9 @@ alert("This is an external test file!!!");
 
 let strange = Number("A strange way to convert a string to a number!!! Won't work");
 alert(strange); // "A strange way to convert a string to a number return NaN 
+
+let value = true;
+alert(typeof value); // return value type: "boolean"
+
+let newValue = String(value);
+alert(typeof newValue); // return value type: "String"
