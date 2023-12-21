@@ -101,3 +101,8 @@ alert(typeof value); // return value type: "boolean"
 
 let newValue = String(value);
 alert(typeof newValue); // return value type: "String"
+
+let x = 2;
+x = -x; // unary operation
+alert(typeof x); // return value type: "unary operation occurred"
+alert(x); // return value type: "unary operation"
