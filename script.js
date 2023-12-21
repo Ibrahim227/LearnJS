@@ -102,15 +102,15 @@
 // let newValue = String(value);
 // alert(typeof newValue); // return value type: "String"
 
-let x = 2;
-x = -x; // unary operation
-// alert(typeof x); // return value type: "unary operation occurred"
-alert(x); // return value type: "unary operation"
+// let x = 2;
+// x = -x; // unary operation
+// // alert(typeof x); // return value type: "unary operation occurred"
+// alert(x); // return value type: "unary operation"
 
-let result = 5 ** 20;
-alert(result); // return result 
+let result = 5 ** 10; /* Long comments */
+alert(`the result of 5**20 is : ${result}`); // return result 
 
-alert(1 + "001");
-alert(`string and integer concatenation: ${'a' + result}`);
+// alert(1 + "001");
+// alert(`string and integer concatenation: ${'a' + result}`);
 
-alert(`Operation with a string concatenation and an integer: ${'1' + 0 + 0 + '2' + '3' + '4' + '5' + '6' + 100 + 200}`)
+alert(`Operation with a string concatenation and an integer: ${'1' + 0 + 0 + '2' + '3' + '4' + '5' + '6' + 100 + 200 + result}`)
