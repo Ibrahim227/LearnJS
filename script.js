@@ -112,3 +112,5 @@ alert(result); // return result
 
 alert(1 + "001");
 alert(`string and integer concatenation: ${'a' + result}`);
+
+alert(`Operation with a string concatenation and an integer: ${'1' + 0 + 0 + '2' + '3' + '4' + '5' + '6' + 100 + 200}`)
