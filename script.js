@@ -94,4 +94,4 @@ alert("This is an external test file!!!");
 
 
 let strange = Number("A strange way to convert a string to a number!!! Won't work");
-alert(strange);
+alert(strange); // "A strange way to convert a string to a number return NaN 
