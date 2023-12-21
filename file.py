@@ -32,11 +32,12 @@ else:
     print(f" the file contains {driOp.readlines()}")
     driOp.close()
 finally:
-    print("\nPrint a finally message")
+    print("A finally message")
     
 try:
     testFile = open('mydata4.txt', 'r')
     print(testFile.readlines())
     testFile.close()
 except:
-    print("the file doesn't exist")
+    print("The file does not exist")
+    
