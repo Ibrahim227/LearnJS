@@ -104,5 +104,8 @@
 
 let x = 2;
 x = -x; // unary operation
-alert(typeof x); // return value type: "unary operation occurred"
+// alert(typeof x); // return value type: "unary operation occurred"
 alert(x); // return value type: "unary operation"
+
+let result = 5 ** 20;
+alert(result); // return result 
