@@ -109,3 +109,6 @@ alert(x); // return value type: "unary operation"
 
 let result = 5 ** 20;
 alert(result); // return result 
+
+alert(1 + "001");
+alert(`string and integer concatenation: ${'a' + result}`);
