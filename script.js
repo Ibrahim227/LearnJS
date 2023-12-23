@@ -123,5 +123,7 @@ alert(+a + b);
 // c = d = e = 2 * 4;
 // alert(`c = ${c} b = ${b}, c + b = ${c + b}, c + b = ${+c + +b}`);
 
-let c = 3;
-alert(a === c);
+// let c = 3;
+// alert(a === c);
+
+alert(null === undefined);
