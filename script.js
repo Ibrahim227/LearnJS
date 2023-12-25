@@ -134,8 +134,17 @@ alert(null === undefined);
 // alert(0 !== false); // strict equality check
 // alert(0 === true);
 
-let NameEnter = prompt('Enter Name: ');
-if (NameEnter == 'Ibrahim' || "ibrahim" || 'Sani' || 'ibrahim Sani'){
-    alert('Welcome to the Internet');
-    alert("You're so smart than expected")
+// let NameEnter = prompt('Enter Name: ');
+// if (NameEnter == 'Ibrahim' || "ibrahim" || 'Sani' || 'ibrahim Sani'){
+//     alert('Welcome to the Internet');
+//     alert("You're so smart than expected")
+// }
+
+let MyYear = prompt('Enter Year of birth:');
+if(MyYear != 1998){
+    alert('Please enter a valid year');
+}
+
+if (MyYear == 1998){
+    alert("You're right now");
 }
