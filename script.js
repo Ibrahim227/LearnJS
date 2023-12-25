@@ -126,10 +126,13 @@
 // let c = 3;
 // alert(a === c);
 
-// alert(null === undefined); 
+alert(null === undefined); 
 // alert('Gluee' > 'Ga');
 
 // alert("Z" >= "A");
 
-alert(0 === false); // strict equality check
-alert(0 === true);
+// alert(0 !== false); // strict equality check
+// alert(0 === true);
+
+let NameEnter = prompt('Enter Name: ');
+if (NameEnter == 'Ibrahim' || "ibrahim" || 'Sani' || 'ibrahim Sani') alert('Welcome to the Internet');
