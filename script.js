@@ -169,4 +169,7 @@ if (Number < 0){
     alert(1);
 }
 
-let result = (a + b < 4) ? 'Below' : 'Over';
+// let result = (a + b < 4) ? 'Below' : 'Over';
+
+// let message = (login == 'Employee') ? 'Hello' : (login == 'Director') ? 'Greetings' : (login == 'Manager') ? 'Yeah' : (login == 'President') ? 'Welcome Boss';
+
