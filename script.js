@@ -126,7 +126,7 @@
 // let c = 3;
 // alert(a === c);
 
-alert(null === undefined); 
+// alert(null === undefined); 
 // alert('Gluee' > 'Ga');
 
 // alert("Z" >= "A");
@@ -160,16 +160,24 @@ alert(null === undefined);
 // }
 // alert(AuthorizationAge);
 
-let Number = prompt("Enter number:", '');
-if (Number < 0){
-    alert(-1);
-} else if (Number == 0){
-    alert(0);
-} else {
-    alert(1);
-}
+// let Number = prompt("Enter number:", '');
+// if (Number < 0){
+//     alert(-1);
+// } else if (Number == 0){
+//     alert(0);
+// } else {
+//     alert(1);
+// }
 
 // let result = (a + b < 4) ? 'Below' : 'Over';
 
 // let message = (login == 'Employee') ? 'Hello' : (login == 'Director') ? 'Greetings' : (login == 'Manager') ? 'Yeah' : (login == 'President') ? 'Welcome Boss';
 
+
+// let a = 19;
+// let b = 20;
+
+// result = a || b;
+// alert(result);
+
+alert(1 || undefined || null);
