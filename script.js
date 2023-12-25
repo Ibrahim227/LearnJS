@@ -129,4 +129,7 @@
 // alert(null === undefined); 
 // alert('Gluee' > 'Ga');
 
-alert("Z" >= "A");
+// alert("Z" >= "A");
+
+alert(0 == false);
+alert(0 != true);
