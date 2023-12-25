@@ -141,10 +141,10 @@ alert(null === undefined);
 // }
 
 let MyYear = prompt('Enter Year of birth:');
-if(MyYear != 1998){
-    alert('Please enter a valid year');
-}
-
-if (MyYear == 1998){
-    alert("You're right now");
+if(MyYear < 1998){
+    alert('Too old');
+} else if(MyYear > 1998) {
+    alert("too young");
+}else if (MyYear == 1998){
+    alert("You're got it right now");
 }
