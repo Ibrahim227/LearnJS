@@ -140,11 +140,22 @@ alert(null === undefined);
 //     alert("You're so smart than expected")
 // }
 
-let MyYear = prompt('Enter Year of birth:');
-if(MyYear < 1998){
-    alert('Too old');
-} else if(MyYear > 1998) {
-    alert("too young");
-}else {
-    alert("You got it right now");
+// let MyYear = prompt('Enter Year of birth:');
+// if(MyYear < 1998){
+//     alert('Too old');
+// } else if(MyYear > 1998) {
+//     alert("too young");
+// }else {
+//     alert("You got it right now");
+// }
+
+let AuthorizationAge = prompt('Enter AuthorizationAge:');
+
+if (AuthorizationAge >= 18){
+    AuthorizationAge = "You're a Major, come on in!";
+} else if(AuthorizationAge == 16) {
+    AuthorizationAge = "You have to reach 18 and you're 2years far, access refused!";
+} else if(AuthorizationAge < 18){
+    AuthorizationAge = "You' a Minor, come back after you reach 18, access refused!";
 }
+alert(AuthorizationAge);
