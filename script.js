@@ -135,4 +135,7 @@ alert(null === undefined);
 // alert(0 === true);
 
 let NameEnter = prompt('Enter Name: ');
-if (NameEnter == 'Ibrahim' || "ibrahim" || 'Sani' || 'ibrahim Sani') alert('Welcome to the Internet');
+if (NameEnter == 'Ibrahim' || "ibrahim" || 'Sani' || 'ibrahim Sani'){
+    alert('Welcome to the Internet');
+    alert("You're so smart than expected")
+}
