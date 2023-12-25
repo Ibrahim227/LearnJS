@@ -149,13 +149,22 @@ alert(null === undefined);
 //     alert("You got it right now");
 // }
 
-let AuthorizationAge = prompt('Enter AuthorizationAge:');
+// let AuthorizationAge = prompt('Enter AuthorizationAge:');
 
-if (AuthorizationAge >= 18){
-    AuthorizationAge = "You're a Major, come on in!";
-} else if(AuthorizationAge == 16) {
-    AuthorizationAge = "You have to reach 18 and you're 2years far, access refused!";
-} else if(AuthorizationAge < 18){
-    AuthorizationAge = "You' a Minor, come back after you reach 18, access refused!";
+// if (AuthorizationAge >= 18){
+//     AuthorizationAge = "You're a Major, come on in!";
+// } else if(AuthorizationAge == 16) {
+//     AuthorizationAge = "You have to reach 18 and you're 2years far, access refused!";
+// } else if(AuthorizationAge < 18){
+//     AuthorizationAge = "You' a Minor, come back after you reach 18, access refused!";
+// }
+// alert(AuthorizationAge);
+
+let Number = prompt("Enter number:", '');
+if (Number < 0){
+    alert(-1);
+} else if (Number == 0){
+    alert(0);
+} else {
+    alert(1);
 }
-alert(AuthorizationAge);
