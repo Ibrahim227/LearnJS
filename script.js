@@ -168,3 +168,5 @@ if (Number < 0){
 } else {
     alert(1);
 }
+
+let result = (a + b < 4) ? 'Below' : 'Over';
