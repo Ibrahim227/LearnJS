@@ -182,11 +182,19 @@
 
 // alert(1 || undefined || null);
 
-let age = prompt("Enter your age:", '');
+// let age = prompt("Enter your age:", '');
 
-if(!age <= 14 && 90){
-    alert("Age must be between 14 and 90");
-} else if(age <= 14 && age <= 90){
-    alert("Age is between 14 and 90");
+// if(!age <= 14 && 90){
+//     alert("Age must be between 14 and 90");
+// } else if(age <= 14 && age <= 90){
+//     alert("Age is between 14 and 90");
+// }
+
+let EnterLogin = prompt("Enter your Login:", '');
+
+if(EnterLogin == 'Admin'){
+    let PasswordEnter = prompt("Enter your Password:", '');
+    if(EnterLogin == 'Admin' && PasswordEnter == 'TheMaster'){
+        alert("Welcome");
 }
-
+}
