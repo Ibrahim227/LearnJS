@@ -145,6 +145,6 @@ if(MyYear < 1998){
     alert('Too old');
 } else if(MyYear > 1998) {
     alert("too young");
-}else if (MyYear == 1998){
-    alert("You're got it right now");
+}else {
+    alert("You got it right now");
 }
