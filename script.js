@@ -190,17 +190,25 @@
 //     alert("Age is between 14 and 90");
 // }
 
-let EnterLogin = prompt("Enter your Login:", '');
+// let EnterLogin = prompt("Enter your Login:", '');
 
-if(EnterLogin == 'Admin'){
-    let PasswordEnter = prompt("Enter your Password:", '');
-    if(EnterLogin == 'Admin' && PasswordEnter == 'TheMaster'){
-        alert("Welcome");
-    } else if(EnterLogin == 'Admin' && PasswordEnter != 'TheMaster'){
-        alert("Wrong Password");
-    }
-}  else if (EnterLogin == '' || EnterLogin == escape){
-    alert("Canceled");
-} else {
-    alert("I don't know you");
+// if(EnterLogin == 'Admin'){
+//     let PasswordEnter = prompt("Enter your Password:", '');
+//     if(EnterLogin == 'Admin' && PasswordEnter == 'TheMaster'){
+//         alert("Welcome");
+//     } else if(EnterLogin == 'Admin' && PasswordEnter != 'TheMaster'){
+//         alert("Wrong Password");
+//     }
+// }  else if (EnterLogin == '' || EnterLogin == null){
+//     alert("Canceled");
+// } else {
+//     alert("I don't know you");
+// }
+
+
+let i = 0;
+
+while (i < 3) {
+    alert(i);
+    i++;
 }
