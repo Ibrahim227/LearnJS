@@ -196,6 +196,8 @@ if(EnterLogin == 'Admin'){
     let PasswordEnter = prompt("Enter your Password:", '');
     if(EnterLogin == 'Admin' && PasswordEnter == 'TheMaster'){
         alert("Welcome");
+    } else if(EnterLogin == 'Admin' && PasswordEnter != 'TheMaster'){
+        alert("Wrong Password");
     }
 }  else if (EnterLogin == '' || EnterLogin == escape){
     alert("Canceled");
