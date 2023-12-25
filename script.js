@@ -131,5 +131,5 @@
 
 // alert("Z" >= "A");
 
-alert(0 == false);
-alert(0 != true);
+alert(0 === false); // strict equality check
+alert(0 === true);
