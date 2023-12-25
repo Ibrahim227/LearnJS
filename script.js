@@ -212,3 +212,6 @@ while (i < 3) {
     alert(i);
     i++;
 }
+
+let j = 3;
+while(j) alert(j--);
