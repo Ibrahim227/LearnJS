@@ -233,9 +233,19 @@
 //     alert(i);
 // }
 
-outer: for (let a = 0; a < 10; a++){
-    for (let b = 0; b < 10; b++) {
-        let input = +prompt(`Enter value at: ${a},${b}`);
-        if (!input) break outer;
-    }
+// outer: for (let a = 0; a < 10; a++){
+//     for (let b = 0; b < 10; b++) {
+//         let input = +prompt(`Enter value at: ${a},${b}`);
+//         if (!input) {
+//             alert("First LOOP stopped!!");
+//             break outer;
+//         }
+//     }
+// }
+
+let i = 3;
+
+while(true){
+    alert(`number: ${i}!`);
+    i++;   // console output
 }
