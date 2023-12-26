@@ -243,9 +243,10 @@
 //     }
 // }
 
-let i = 3;
+// let i = 0;
 
-while(true){
-    alert(`number: ${i}!`);
-    i++;   // console output
-}
+// while(i < 5){
+//     alert(`number: ${i}!`);
+//     i++;   // console output
+// }
+
