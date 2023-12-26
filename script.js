@@ -233,9 +233,9 @@
 //     alert(i);
 // }
 
-for (let a = 0; a < 10; a++){
+outer: for (let a = 0; a < 10; a++){
     for (let b = 0; b < 10; b++) {
         let input = +prompt(`Enter value at: ${a},${b}`);
-        if (!input) break;
+        if (!input) break outer;
     }
 }
