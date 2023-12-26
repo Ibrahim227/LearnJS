@@ -238,5 +238,4 @@ for (let a = 0; a < 10; a++){
         let input = +prompt(`Enter value at: ${a},${b}`);
         if (!input) break;
     }
-    alert(input);
 }
