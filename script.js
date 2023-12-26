@@ -216,14 +216,27 @@
 // let j = 3;
 // while(j) alert(j--);
 
-let i = 0;
+// let i = 0;
 // do {
 //     alert(i);
 //     i++;
 // } while (i < 3);
 
 
-for(; i < 5;) {
-    alert(i);
-    i++;
+// for(; i < 5;) {
+//     alert(i);
+//     i++;
+// }
+
+// for (let i = 0; i < 10; i++){
+//     if(i % 2 == 0) continue;
+//     alert(i);
+// }
+
+for (let a = 0; a < 10; a++){
+    for (let b = 0; b < 10; b++) {
+        let input = +prompt(`Enter value at: ${a},${b}`);
+        if (!input) break;
+    }
+    alert(input);
 }
