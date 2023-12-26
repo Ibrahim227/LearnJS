@@ -206,14 +206,18 @@
 // }
 
 
-let i = 0;
+// let i = 0;
 
-while (i < 3) {
+// while (i < 3) {
+//     alert(i);
+//     i++;
+// }
+
+// let j = 3;
+// while(j) alert(j--);
+
+let i = 0;
+do {
     alert(i);
     i++;
-}
-
-let j = 3;
-while(j) alert(j--);
-
-
+} while (i < 3);
