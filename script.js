@@ -217,7 +217,13 @@
 // while(j) alert(j--);
 
 let i = 0;
-do {
+// do {
+//     alert(i);
+//     i++;
+// } while (i < 3);
+
+
+for(; i < 5;) {
     alert(i);
     i++;
-} while (i < 3);
+}
