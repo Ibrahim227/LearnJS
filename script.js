@@ -250,3 +250,10 @@
 //     i++;   // console output
 // }
 
+let input = +prompt('Enter value:');
+
+while(input <= 100){
+    prompt("Enter value:");
+    continue;
+    if (input > 100) alert(`Number: ${input}`);
+}
