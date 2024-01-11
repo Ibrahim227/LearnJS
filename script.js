@@ -265,5 +265,6 @@ switch(a){
     case 1:
         alert(`Number: ${a}`);
         break;
-    caase
+    case 2:
+        alert(`correct number: ${a}`);
 }
