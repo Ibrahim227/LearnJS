@@ -259,12 +259,10 @@
 //     break;
 // }
 
-let a = +prompt('Enter value');
+// let a = +prompt('Enter value');
 
-switch(a){
-    case 1:
-        alert(`Number: ${a}`);
-        break;
-    case 2:
-        alert(`correct number: ${a}`);
-}
+// switch(a){
+//     case 1:
+//         alert(`Number: ${a}`);
+//         break;
+// }
