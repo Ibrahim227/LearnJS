@@ -267,10 +267,14 @@
 //         break;
 // }
 
-alert('zelcomplex');
+// alert('zelcomplex');
 
-let user = new Object();
 
 let NewUser = {Name:"John", Email: "jhon@gmail.com", Age: 36};
-alert(typeof user);
+
 alert(typeof NewUser);
+
+alert(NewUser.Name);
+alert(NewUser.Email);
+alert(NewUser.Age);
+
