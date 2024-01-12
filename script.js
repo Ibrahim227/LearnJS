@@ -269,3 +269,5 @@
 
 alert('zelcomplex');
 
+let user = new Object();
+print(typeof user);
