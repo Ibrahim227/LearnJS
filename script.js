@@ -270,4 +270,7 @@
 alert('zelcomplex');
 
 let user = new Object();
-print(typeof user);
+
+let NewUser = {Name:"John", Email: "jhon@gmail.com", Age: 36};
+alert(typeof user);
+alert(typeof NewUser);
