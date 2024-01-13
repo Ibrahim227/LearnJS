@@ -270,11 +270,8 @@
 // alert('zelcomplex');
 
 
-let NewUser = {Name:"John", Email: "jhon@gmail.com", Age: 36};
+let NewUser = {"age":30}; // alert(typeof NewUser);
 
-// alert(typeof NewUser);
-
-alert(NewUser.Name);
-alert(NewUser.Email);
-alert(NewUser.Age);
-
+// alert(NewUser.Name);
+// alert(NewUser.Email);
+alert(NewUser.age);
