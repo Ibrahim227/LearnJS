@@ -270,8 +270,11 @@
 // alert('zelcomplex');
 
 
-let NewUser = {"age":30}; // alert(typeof NewUser);
+let NewUser = {name: "Ibrahim",
+age:30;
+isAdmin: false};
 
 // alert(NewUser.Name);
 // alert(NewUser.Email);
-alert(NewUser.age);
+for (key in NewUser) {
+alert(key)};
