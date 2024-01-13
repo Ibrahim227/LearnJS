@@ -276,5 +276,6 @@ isAdmin: false};
 
 // alert(NewUser.Name);
 // alert(NewUser.Email);
-for (key in NewUser) {
-alert(key)};
+for (let key in NewUser) {
+alert(key)}
+alert(NewUser[key]);
