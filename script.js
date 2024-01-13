@@ -272,7 +272,7 @@
 
 let NewUser = {Name:"John", Email: "jhon@gmail.com", Age: 36};
 
-alert(typeof NewUser);
+// alert(typeof NewUser);
 
 alert(NewUser.Name);
 alert(NewUser.Email);
