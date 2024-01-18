@@ -272,10 +272,10 @@
 
 let NewUser = {name: "Ibrahim",
 age:30,
-isAdmin: false};
+isAdmin: true};
 
 // alert(NewUser.Name);
 // alert(NewUser.Email);
 for (let key in NewUser) {
-alert(key)}
-alert(NewUser[key]);
+// alert(key);
+alert(NewUser[key])}
