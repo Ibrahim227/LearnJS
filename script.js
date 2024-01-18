@@ -274,8 +274,4 @@ let NewUser = {name: "Ibrahim",
 age:30,
 };
 
-// alert(NewUser.Name);
-// alert(NewUser.Email);
-for (let key in NewUser) {
-// alert(key);
 alert(NewUser[key])}
