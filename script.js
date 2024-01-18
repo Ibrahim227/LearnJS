@@ -272,7 +272,7 @@
 
 let NewUser = {name: "Ibrahim",
 age:30,
-isAdmin: true};
+};
 
 // alert(NewUser.Name);
 // alert(NewUser.Email);
