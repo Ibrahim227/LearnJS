@@ -274,5 +274,7 @@ let NewUser = {name: "Ibrahim",
 age:30,
 };
 
-for (let key in NewUser){
-alert(NewUser[key])}
+let admin = NewUser;
+
+admin.name = "ZuluTchiang";
+alert(`New Name:{admin.name}`);
