@@ -274,4 +274,5 @@ let NewUser = {name: "Ibrahim",
 age:30,
 };
 
-alert(NewUser[key])}
+for (let key in NewUser){
+alert(NewUser)}
