@@ -277,4 +277,4 @@ age:30,
 let admin = NewUser;
 
 admin.name = "ZuluTchiang";
-alert(`New Name:{admin.name}`);
+alert(admin.name);
