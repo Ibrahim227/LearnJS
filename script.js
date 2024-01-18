@@ -275,4 +275,4 @@ age:30,
 };
 
 for (let key in NewUser){
-alert(NewUser)}
+alert(NewUser[key].name)}
