@@ -286,5 +286,4 @@ let user = {
 function sayHi(){
     alert('welcome');
 };
-user.sayHi = sayHi;
-alert(user.sayHi);
+user.sayHi();
