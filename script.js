@@ -285,5 +285,5 @@ let user = {
 
 function sayHi(){
     alert('welcome');
-}
+};
 user.sayHi = sayHi;
