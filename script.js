@@ -287,3 +287,4 @@ function sayHi(){
     alert('welcome');
 };
 user.sayHi = sayHi;
+alert(user.sayHi);
