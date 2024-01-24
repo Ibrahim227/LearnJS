@@ -279,7 +279,7 @@ let admin = NewUser;
 admin.name = "ZuluTchiang";
 alert(admin.name);
 
-let user {
+let user = {
     //...
 };
 
