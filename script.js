@@ -279,11 +279,14 @@ let admin = NewUser;
 admin.name = "ZuluTchiang";
 alert(admin.name);
 
-let user = { 'name': "ibrahim", 'age': 45,
+let user = {
+    name: "Ibrahim",
+    age: 25,
+
+    sayHi(){
+        alert(this.name);
+        alert(this.age);
+    }
 };
 
-function sayHi(){
-    alert('welcome');
-};
 user.sayHi();
-
