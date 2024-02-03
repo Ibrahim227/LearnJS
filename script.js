@@ -286,3 +286,4 @@ function sayHi(){
     alert('welcome');
 };
 user.sayHi();
+
