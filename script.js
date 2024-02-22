@@ -290,3 +290,6 @@ let user = {
 };
 
 user.sayHi();
+
+
+#this a test line inside the kJS file
